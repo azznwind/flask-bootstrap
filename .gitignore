@@ -1,0 +1,6 @@
+azzn-flask/
+myvenv/
+node_modules/
+scss/
+*.txt
+*.json
