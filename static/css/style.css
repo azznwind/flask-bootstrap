@@ -7085,7 +7085,7 @@ textarea.form-control-lg {
 }
 
 .border-basic-1 {
-  border: 1px solid black !important;
+  border: 1px solid rgb(14, 164, 69) !important;
 }
 
 .border-basic-2 {
@@ -7137,7 +7137,7 @@ textarea.form-control-lg {
 }
 
 .bc-black {
-  border-color: rgb(45, 13, 141) !important;
+  border-color: rgb(161, 15, 71) !important;
 }
 
 .bc-white {
@@ -8293,7 +8293,7 @@ textarea.form-control-lg {
     display: none !important;
   }
   .border-sm-basic-1 {
-    border: 1px solid black !important;
+    border: 1px solid rgb(14, 164, 69) !important;
   }
   .border-sm-basic-2 {
     border: 2px solid black !important;
@@ -8308,7 +8308,7 @@ textarea.form-control-lg {
     border: 5px solid rgb(91, 26, 26) !important;
   }
   .bc-sm-black {
-    border-color: rgb(45, 13, 141) !important;
+    border-color: rgb(161, 15, 71) !important;
   }
   .bc-sm-white {
     border-color: white !important;
@@ -8816,7 +8816,7 @@ textarea.form-control-lg {
     display: none !important;
   }
   .border-md-basic-1 {
-    border: 1px solid black !important;
+    border: 1px solid rgb(14, 164, 69) !important;
   }
   .border-md-basic-2 {
     border: 2px solid black !important;
@@ -8831,7 +8831,7 @@ textarea.form-control-lg {
     border: 5px solid rgb(91, 26, 26) !important;
   }
   .bc-md-black {
-    border-color: rgb(45, 13, 141) !important;
+    border-color: rgb(161, 15, 71) !important;
   }
   .bc-md-white {
     border-color: white !important;
@@ -9339,7 +9339,7 @@ textarea.form-control-lg {
     display: none !important;
   }
   .border-lg-basic-1 {
-    border: 1px solid black !important;
+    border: 1px solid rgb(14, 164, 69) !important;
   }
   .border-lg-basic-2 {
     border: 2px solid black !important;
@@ -9354,7 +9354,7 @@ textarea.form-control-lg {
     border: 5px solid rgb(91, 26, 26) !important;
   }
   .bc-lg-black {
-    border-color: rgb(45, 13, 141) !important;
+    border-color: rgb(161, 15, 71) !important;
   }
   .bc-lg-white {
     border-color: white !important;
@@ -9862,7 +9862,7 @@ textarea.form-control-lg {
     display: none !important;
   }
   .border-xl-basic-1 {
-    border: 1px solid black !important;
+    border: 1px solid rgb(14, 164, 69) !important;
   }
   .border-xl-basic-2 {
     border: 2px solid black !important;
@@ -9877,7 +9877,7 @@ textarea.form-control-lg {
     border: 5px solid rgb(91, 26, 26) !important;
   }
   .bc-xl-black {
-    border-color: rgb(45, 13, 141) !important;
+    border-color: rgb(161, 15, 71) !important;
   }
   .bc-xl-white {
     border-color: white !important;
@@ -10385,7 +10385,7 @@ textarea.form-control-lg {
     display: none !important;
   }
   .border-xxl-basic-1 {
-    border: 1px solid black !important;
+    border: 1px solid rgb(14, 164, 69) !important;
   }
   .border-xxl-basic-2 {
     border: 2px solid black !important;
@@ -10400,7 +10400,7 @@ textarea.form-control-lg {
     border: 5px solid rgb(91, 26, 26) !important;
   }
   .bc-xxl-black {
-    border-color: rgb(45, 13, 141) !important;
+    border-color: rgb(161, 15, 71) !important;
   }
   .bc-xxl-white {
     border-color: white !important;
