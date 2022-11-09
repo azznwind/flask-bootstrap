@@ -7137,7 +7137,7 @@ textarea.form-control-lg {
 }
 
 .bc-black {
-  border-color: black !important;
+  border-color: rgb(45, 13, 141) !important;
 }
 
 .bc-white {
@@ -8308,7 +8308,7 @@ textarea.form-control-lg {
     border: 5px solid rgb(91, 26, 26) !important;
   }
   .bc-sm-black {
-    border-color: black !important;
+    border-color: rgb(45, 13, 141) !important;
   }
   .bc-sm-white {
     border-color: white !important;
@@ -8831,7 +8831,7 @@ textarea.form-control-lg {
     border: 5px solid rgb(91, 26, 26) !important;
   }
   .bc-md-black {
-    border-color: black !important;
+    border-color: rgb(45, 13, 141) !important;
   }
   .bc-md-white {
     border-color: white !important;
@@ -9354,7 +9354,7 @@ textarea.form-control-lg {
     border: 5px solid rgb(91, 26, 26) !important;
   }
   .bc-lg-black {
-    border-color: black !important;
+    border-color: rgb(45, 13, 141) !important;
   }
   .bc-lg-white {
     border-color: white !important;
@@ -9877,7 +9877,7 @@ textarea.form-control-lg {
     border: 5px solid rgb(91, 26, 26) !important;
   }
   .bc-xl-black {
-    border-color: black !important;
+    border-color: rgb(45, 13, 141) !important;
   }
   .bc-xl-white {
     border-color: white !important;
@@ -10400,7 +10400,7 @@ textarea.form-control-lg {
     border: 5px solid rgb(91, 26, 26) !important;
   }
   .bc-xxl-black {
-    border-color: black !important;
+    border-color: rgb(45, 13, 141) !important;
   }
   .bc-xxl-white {
     border-color: white !important;
