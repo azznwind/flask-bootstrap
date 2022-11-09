@@ -9,7 +9,7 @@ app=Flask(__name__)
 def git_update():
   repo = git.Repo('./flask-bootstrap')
   origin = repo.remote.origin
-  repo.create_head('main', 
+  repo.create_head('master', 
   origin.refs.main).set_tracking_branch(origin.refs.main).checkout()
   orign.pull()
   return '', 200
