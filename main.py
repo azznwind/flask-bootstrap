@@ -9,7 +9,7 @@ app=Flask(__name__)
 def git_update():
   repo = git.Repo('./flask-bootstrap')
   origin = repo.remote.origin
-  repo.create_head('master', 
+  repo.create_head('main', 
   origin.refs.main).set_tracking_branch(origin.refs.main).checkout()
   orign.pull()
   return '', 200
@@ -21,6 +21,10 @@ def home():
 @app.route("/test")
 def test():
     return render_template('test.html', name='greg')
+
+@app.route("/moment")
+def test():
+    return render_template('moment.html', name='greg')
 
 if __name__=="__main__":
     #app.run(host="localhost", port=5000, debug=True)
