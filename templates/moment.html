@@ -3,15 +3,32 @@
     <head>
         <meta charset="UTF-8"/>
         <title> MomentJS Date Object </title>
+        <style>
+            .fs40 {
+              color: #26b72b;
+              background-color: rgb(234, 221, 221);
+            }
+            </style>
     </head>
     <body>
-        <h1>moment</h1>
+        <div id="myDate"></div>
+        <h2>moment</h2>
+        <h1 id="anotherID" class="dateClass"></h1>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
         <script>
         // You have a 'moment' global here
          const today = moment();
          console.log(today.format());
          console.log("hello")
+         
+      let d = new Date();
+      //document.body.innerHTML = "<h1>Today's date is " + d + "</h1>"
+   
+     //document.body.innerHTML = "<h1>Today's ssssdate (moment.js) is " + today.format() + "</h1>";
+      document.getElementById("myDate").innerHTML =  "Today's date is " + d + " how cool";
+      document.getElementsByClassName("dateClass")[0].innerHTML =  "<span class='fs40'> Current date is " + d + " how nice" + "</span>";
+  
+  
         </script>
     </body>
 </html>
