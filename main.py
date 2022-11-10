@@ -23,7 +23,7 @@ def test():
     return render_template('test.html', name='greg')
 
 @app.route("/moment")
-def test():
+def moment():
     return render_template('moment.html', name='greg')
 
 if __name__=="__main__":
