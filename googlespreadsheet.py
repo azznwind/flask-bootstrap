@@ -7,6 +7,7 @@ gsheet_url = "https://docs.google.com/spreadsheets/d/{}/gviz/tq?tqx=out:csv&shee
 
 df = pd.read_csv(gsheet_url)
 data = df.loc[:,'date entered':'buying power effect']
+data = data.fillna("")
 #data = df.style.set_properties(**{'text-align': 'right'})
 """
 data = df.style.format({"quoted price": "${:20,.0f}", 

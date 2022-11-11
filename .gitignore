@@ -4,4 +4,4 @@ node_modules/
 scss/
 *.txt
 *.json
-__pycache__
+__pycache__/

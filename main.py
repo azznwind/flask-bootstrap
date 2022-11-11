@@ -19,7 +19,7 @@ def git_update():
 
 @app.route("/")
 def home():
-    return render_template('index.html',  tables=googlespreadsheet.data.to_html(), titles=googlespreadsheet.data.columns.values)
+    return render_template('index.html',  tables=googlespreadsheet.data.values, titles=googlespreadsheet.data.columns.values)
                                 
 @app.route("/test")
 def test():
