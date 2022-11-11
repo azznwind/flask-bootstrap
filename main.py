@@ -14,12 +14,12 @@ def git_update():
   origin = repo.remote.origin
   repo.create_head('main', 
   origin.refs.main).set_tracking_branch(origin.refs.main).checkout()
-  orign.pull()
+  origin.pull()
   return '', 200
 
 @app.route("/")
 def home():
-    return render_template('index.html',  tables=googlespreadsheet.data.values, titles=googlespreadsheet.data.columns.values)
+    return render_template('index.html',  data=googlespreadsheet.data.values, header=googlespreadsheet.data.columns.values)
                                 
 @app.route("/test")
 def test():
